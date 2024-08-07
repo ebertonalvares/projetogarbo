@@ -1,4 +1,5 @@
 import "./styles.css"
+import logo from '../../assets/logo.png';
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUser, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
@@ -7,7 +8,7 @@ export default function Header() {
     return (
         <header id="menu">
             <div className="header__logo">
-                <a href="/">Logo</a>
+                <img src={logo} alt="Logo"/>
             </div>
             <nav id="items-menu">
                 <Link to={"/"} className="text-center">Home</Link>
