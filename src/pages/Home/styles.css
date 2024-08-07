@@ -1,0 +1,11 @@
+
+#whatsapp-button .ant-float-btn-icon {
+    color: #fff;
+    width: 95%;
+    height: 100%;
+    font-size: 25px;
+}
+
+#whatsapp-button > .ant-float-btn-body {
+    background-color: #25D366;
+}

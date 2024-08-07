@@ -1,0 +1,105 @@
+#info {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:  65%  35%;
+}
+
+#info-container {
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#photo {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    
+}
+
+#h1 {
+    color: #333;
+}
+
+#p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#photo>img{
+    padding: 20px;
+    width: 100%;
+    margin:auto;
+    border-radius:80%
+}
+
+
+
+
+
+
+  
+
+#inicio01{
+    text-align: center;
+  margin-bottom: 30px;
+  font-size: 54px;
+  color: orange;
+  font-family:'Times New Roman', Times, serif
+  
+}
+
+#Texto01{
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+#texto04{
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* const CamilaPage = () => {
+    return (
+      <div id='PaginaToda'>
+        <h1 id='inicio01'>Oi, meu nome é Jean!</h1>
+        <p id='Texto01'>
+          Estou aqui para te acompanhar, escutar e acolher no seu
+          mergulho em si mesmo.
+        </p>
+
+        <p id='Texto01'>
+          Através da escuta analítica, buscamos navegar pela psique, onde
+          contem conteúdos desconhecidos e/ou esquecidos por nós, que
+          fazem parte tanto do inconscientes individual, quanto do coletivo.
+        </p>
+
+        <p id='Texto01'>
+          Em um trabalho de parceria, a análise se propõe a ser um espaço
+          para elaboração dos conteúdos inconscientes, que acarreta em
+          compreendermos melhor nossas angústias, medos, ansiedade e
+          qualquer outra queixa que possa estar gerando sofrimento. Assim,
+          trazer à consciência possibilita uma vivência em maior harmonia.
+        </p>
+        <p id='texto04'>
+          Hoje, além da clínica, eu trabalho no NAPI (núcleo de apoio
+          psicopedagógico e inclusão) da Universidade Anhembi Morumbi,
+          auxiliando alunos com transtornos de aprendizagem e/ou deficiência
+          a terem uma formação mais inclusiva.
+        </p>
+        <p id='texto04'>
+         Na clínica, atendendo de maneira remota e presencial, realizando um
+          trabalho de parceria, respeito e confiança nesse caminho do
+          autoconhecimento.
+        </p>
+      </div>
+
+      
+    );
+    
+  };
+  
+  export default CamilaPage; */
